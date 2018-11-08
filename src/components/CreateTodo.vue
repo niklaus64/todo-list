@@ -5,7 +5,7 @@
       v-on:click="openForm"
       v-show="!isCreating"
     >
-      <i class="fork icon"></i> Dodaj zadanie
+      <i class="plus circle icon"></i> Dodaj zadanie
     </button>
     <div class="ui centered card" v-show="isCreating">
       <div class="content">
